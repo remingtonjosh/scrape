@@ -1,17 +1,24 @@
 body {
-    background-image: url("/assets/images/New-York.jpg");
-    padding-top: 70px;
+  background-image: url("https://tabippo.net/wp-content/uploads/20190505120940/oliver-niblett-782400-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 70px;
+}
+
+.jumbotron {
+  background: none;
 }
 
 .deleteNote {
-	display: inline-block;
+  display: inline-block;
 }
 
 .previousNotes {
-    display: inline-block;
-    width: 90%
+  display: inline-block;
+  width: 90%;
 }
 
 #scrape {
-    margin: 8px 0px;
+  margin: 8px 0px;
 }
